@@ -1,0 +1,1223 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Bold.woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Light.woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Medium.woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Regular.woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-SemiBold.woff");
+    font-weight: 600;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-ExtraBold.woff");
+    font-weight: 800;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Black.woff");
+    font-weight: 900;
+}
+
+*{
+    font-family: Montserrat;
+    font-weight: 300;
+}
+p{
+    color: #333333;
+    margin: 0;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.default-button{
+    font-size: 16px;
+    line-height: 19.5px;
+    background-color: #FF9900;
+    padding: 26px 38px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.default-button:hover{
+    background-color: rgba(255, 153, 0, 0.6);
+}
+.default-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #333333;
+}
+section{
+    margin-bottom: 100px;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+.desktop-header{
+    margin-bottom: 1px;
+}
+.container{
+    padding: 0 75px;
+}
+.header-logo-href{
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
+.header-search:hover{
+    fill: #FF9900;
+}
+.header-menu-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+}
+.header-menu{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    margin: 0px 25px 0px 0px;
+    padding: 0;
+}
+.header-menu-item{
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 42px 42.5px 36px 42.5px;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.header-menu-item:hover:before {
+    content: "";
+    width: calc(100% - 85px);
+    position: absolute;
+    display: block;
+    bottom: 30%;
+    border: 1px solid #FF9900;;
+}
+.slider-works{
+    display: block;
+    position: relative;
+}
+.slider-works-image{
+    width: 100%;
+}
+.main-text-block{
+    position: absolute;
+    display: block;
+    top: 0;
+    color: white;
+    margin-left: 78px;
+    margin-top: 103px;
+}
+.main-text{
+    font-weight: 800;
+    font-size: 70.5px;
+    line-height: 86px;
+    margin: 0;
+}
+.description-main-text{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 21px 0 0 0;
+    color: white;
+}
+
+.head-button{
+    margin-top: 98px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 2px;
+}
+.title-section{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.51px;
+    margin-top: 0;
+    color: #333333;
+}
+.title-about-company{
+    margin-bottom: 25px;
+}
+.text-about-company{
+    margin: 0px 520px 43px 0px;
+}
+.left-advantages{
+    display: block;
+    position: relative;
+}
+.advantages-about-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.text-info-advantages{
+    font-weight:700;
+    color: white;
+    margin-left: 54px;
+}
+.info-advantages-block{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 176px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.button-info-about{
+    font-weight: 600;
+    border: 3px solid #FF9900;
+    color: white;
+    background: transparent;
+    padding: 17px 35px;
+    margin-left: 80px;
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+.button-info-about:hover{
+    background: #FF9900;
+    color: white;
+}
+.advantage-image-worker{
+    display: block;
+    position: relative;
+}
+.right-advantages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+.info-item:first-child{
+    margin-bottom: 30px;
+}
+.info-item{
+    outline: 1px solid #CACACA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 295px;
+    width: 870px;
+}
+.info-consulting-image{
+    padding: 71px 0 87px 63px;
+}
+.info-worker-image{
+    padding: 55px 0 87px 63px;
+}
+.text-info-consulting{
+    padding: 71px 118px 70px 59px;
+}
+.text-info-worker{
+    padding: 65px 118px 60px 59px;
+}
+.title-info{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.title-how-we-work{
+    margin-bottom: 50px;
+}
+.how-we-work-points{
+    list-style: none;
+    display: flex;
+    padding: 0 0 0 2px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.point-item{
+    cursor: pointer;
+    color: #333333;
+    transition: color 0.3s ease;
+}
+.point-item:hover{
+    color: #FF9900;
+}
+.point-item:not(:first-child){
+    margin-left: 89px;
+}
+.point-item:first-child{
+
+}
+
+.buttons-block-how-we-work{
+    display: flex;
+    flex-direction: row;
+    margin-top: 62px;
+    margin-left: 2px;
+}
+.block-how-we-work{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    justify-content: center;
+    width: 100%;
+}
+.left-how-we-work{
+    position: relative;
+    display: block;
+}
+.right-how-we-work{
+    position: relative;
+    display: block;
+    padding-top: 11px;
+    margin-left: 115px;
+    right: -20px;
+}
+.button-more-how-we-work{
+    padding: 20px 38px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-right: 31px;
+}
+.button-contract-how-we-work{
+    padding: 13px 38px !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    background: transparent;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    color: #333;
+    cursor: pointer;
+    transition-property: background-color,color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.button-contract-how-we-work:hover{
+    background-color: #333333;
+    color: white;
+}
+.title-questions{
+    margin-bottom: 33px;
+}
+.title-application{
+    margin-bottom: 20px;
+    margin-left: 0px;
+    color: #cacaca;
+}
+.button-question-more{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background: #ECECEC;
+    transition: background-color 0.3s ease;
+}
+.block-button-question-more{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.question-item{
+    display: flex;
+    flex-direction: row;
+}
+.question-text{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 5px;
+    transition: color 0.3s ease;
+}
+.question-href{
+    display: flex;
+    width: 100%;
+    height: 113px;
+    border-top: 1px solid #CACACA;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.question-item:last-child > .question-href{
+    border-bottom: 1px solid #CACACA;
+}
+.question-href:hover p.question-text{
+    color: #FF9900;
+}
+.question-href:hover .button-question-more{
+    background-color: #D2D2D2;
+}
+.image-button-question{
+    position: absolute;
+    right: 8px;
+}
+.left-footer-categories{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 105px;
+    color: #CACACA;
+    margin-top: 0;
+    width: 317px;
+}
+.left-footer-item>a{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #cacaca;
+
+}
+.left-footer{
+    margin-top: 47px;
+}
+
+footer{
+    background: #222222;
+}
+.footer-block{
+
+}
+.logo-footer{
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+.image-social-block{
+    width: 60px;
+    height: 60px;
+}
+.social-link-footer:not(:last-child){
+    margin-right: 21px;
+}
+.social-link-footer{
+    width: 100%;
+}
+.footer-block{
+    display: flex;
+    flex-direction: row;
+}
+.center-footer{
+    margin-left: 284px;
+    margin-top: 60px;
+}
+
+.form-center-footer{
+    display: flex;
+    flex-direction: column;
+}
+.default-input{
+    padding: 14px 23.5px;
+    background: #414141;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CACACA;
+    outline: none;
+    border: none;
+    width: 523px;
+}
+.default-input:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.textarea-comment{
+    height: 120px;
+    resize: none;
+    margin-bottom: 33px !important;
+}
+.button-form-center-footer{
+    width: 269px;
+    display: inline;
+    padding: 20px 52px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.checkbox-block{
+    display: inline;
+}
+.checkbox-form-center-footer{
+    margin-left: 17px;
+}
+.label-checkbox-center{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CACACA;
+    margin-left: 2px;
+}
+.text-right-footer{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CACACA;
+    margin: 125px 0px 184px 226px;
+}
+
+
+.slider-works-image-mobile{
+    width: 100%;
+    display: none;
+}
+.mobile-header{
+    height: 100px;
+    background-color: white;
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+.burger-mobile-header{
+    width: 30px;
+    height: 23px;
+    cursor: pointer;
+}
+.header-logo-mobile{
+    width: 150px;
+    height: 48px;
+}
+.header-search-mobile{
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+.advantage-image-worker-mobile{
+    display: none;
+    width: 100%;
+}
+.image-notes-how-we-work-mobile{
+    display: none;
+}
+.advantage-image-worker-mobile-768{
+    display: none;
+}
+.image-notes-how-we-work-mobile-768{
+    display: none;
+}
+.slider-works-image-mobile-768{
+    display: none;
+}
+@media (max-width: 1024px){
+    .desktop-header{
+        display: none;
+    }
+    .mobile-header{
+        display: flex;
+    }
+    .container{
+        padding: 0 50px;
+    }
+    .header-logo-href{
+        margin: 0 auto;
+    }
+    .slider-works-image{
+        display: none;
+    }
+    .slider-works-image-mobile{
+        display: block;
+        top: -86px;
+        position: relative;
+        z-index: 0;
+    }
+    .main-text{
+        font-family: Montserrat;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 73px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .main-text-block{
+        margin: 160px 42px 114px 45px;
+    }
+    .description-main-text{
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 10px 0 0 0;
+        color: white;
+    }
+    .head-button {
+        margin-top: 110px;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-left: 0px;
+        padding: 26px 40px;
+    }
+    section{
+        margin-bottom: 58px;
+    }
+    .slider-works{
+        height: 668px;
+    }
+    .title-section{
+        font-family: Montserrat;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .text-about-company{
+        margin: 26px 0px 59px 0px;
+    }
+    .advantage-image-worker{
+        display: none;
+    }
+    .advantage-image-worker-mobile{
+        display: block;
+        width: 100%;
+    }
+    .advantages-about-block{
+        flex-direction: column;
+    }
+    .button-info-about {
+        padding: 17px 35.5px;
+        margin-left: 152px;
+    }
+    .text-info-advantages {
+        margin-left: 44px;
+    }
+    .left-advantages{
+        margin-bottom: 50px;
+    }
+    .info-item{
+        width: 100%;
+    }
+    .right-advantages{
+        margin: 0;
+    }
+    .info-item:first-child{
+        margin-bottom: 40px;
+    }
+    .text-info-consulting {
+        padding: 0;
+        margin-right: 100px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .text-info-worker{
+        padding: 0;
+        margin-right: 100px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .info-consulting-image {
+        padding: 76px 59px 82px 112px;
+    }
+    .info-worker-image {
+        padding: 63px 59px 79px 112px;
+    }
+    .title-how-we-work {
+        margin-bottom: 48px;
+    }
+    .image-notes-how-we-work{
+        display: none;
+    }
+    .image-notes-how-we-work-mobile{
+        display: block;
+    }
+    .right-how-we-work {
+        margin-left: 33px;
+        right: -17px;
+        padding-top: 10px;
+    }
+    .how-we-work-points
+    {
+        padding: 0 0 0 0px;
+    }
+    .buttons-block-how-we-work {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .question-href{
+        height: 113px;
+    }
+    .question-text{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 0;
+    }
+    .question-item:first-child > .question-href{
+        padding-top: 10px;
+    }
+    .title-questions{
+        margin-bottom: 39px;
+    }
+    .right-footer{
+        display: none;
+    }
+    .center-footer {
+        margin-left: 69px;
+        margin-top: 57px;
+    }
+    .left-footer {
+        margin-top: 46px;
+    }
+    .form-center-footer {
+        margin-left: 3px;
+    }
+    .title-application {
+        margin-bottom: 23px;
+        margin-left: 0px;
+        color: #cacaca;
+    }
+    .textarea-comment {
+        margin-bottom: 32px !important;
+    }
+    .button-form-center-footer {
+        width: auto;
+        display: inline;
+        padding: 20px 38px;
+    }
+    .default-input{
+        width: auto;
+    }
+    .label-checkbox-center{
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .checkbox-form-center-footer {
+        margin-left: 11px;
+    }
+    footer {
+        background: #222222;
+        padding-bottom: 100px;
+    }
+    .slider-works-image-mobile-768{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        padding: 0;
+    }
+    .mobile-header{
+        height: 69px;
+    }
+    .burger-mobile-header{
+        margin-left: 48px;
+    }
+    .header-search-mobile{
+        margin-right: 51px;
+    }
+    .slider-works-image-mobile{
+        display: none;
+    }
+    .slider-works-image-mobile-768{
+        display: block;
+        top: -69px;
+        position: relative;
+    }
+    .main-text-block {
+        margin: 191px 2px 114px 49px;
+    }
+    .head-button {
+        padding: 26px 39px;
+    }
+    .slider-works {
+        height: 699px;
+    }
+    .about-company{
+        padding: 0 50px;
+    }
+    .advantage-image-worker-mobile-768{
+        display: block;
+    }
+    .advantage-image-worker-mobile{
+        display: none;
+    }
+    .button-info-about {
+        padding: 17px 35px;
+        margin-left: 33px;
+        margin-right: 22px;
+        margin-top: 4px;
+    }
+    .text-info-advantages{
+        margin-top: 0;
+        margin-left: 29px;
+    }
+    .info-consulting-image {
+        padding: 65px 32px 66px 31px;
+        width: 117px;
+    }
+    .text-info-consulting{
+        margin-right: 38px;
+    }
+    .info-worker-image {
+        padding: 67px 26px 68px 31px;
+        width: 117px;
+    }
+    .text-info-worker{
+        margin-right: 38px;
+    }
+    .info-item{
+        height: 235px;
+    }
+    .how-we-work{
+        padding: 0 50px;
+    }
+    .image-notes-how-we-work-mobile-768{
+        display: block;
+    }
+    .image-notes-how-we-work-mobile{
+        display: none;
+    }
+    .left-how-we-work{
+        order: 4;
+    }
+    .block-how-we-work{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right-how-we-work {
+        margin-left: 0;
+        right: 0;
+        padding-top: 0px;
+        margin-bottom: 40px;
+    }
+    .questions{
+        padding: 0 50px;
+    }
+    .question-text {
+        max-width: 74%;
+    }
+    footer{
+        padding: 0 50px;
+    }
+    .footer-block{
+        flex-direction: column;
+    }
+    .left-footer{
+        order: 3;
+    }
+    .center-footer {
+        margin-left: 0;
+        margin-top: 57px;
+        margin-right: 134px;
+    }
+    .left-footer {
+        margin-top: 58px;
+    }
+    .left-footer-categories{
+        display: none;
+    }
+    .logo-footer {
+        margin-bottom: 16px;
+    }
+    .social-block-left-footer{
+        margin-bottom: 59px;
+    }
+    .left-advantages {
+        margin-bottom: 40px;
+    }
+    .how-we-work-points {
+        padding: 0 0 0 0px;
+        justify-content: space-between;
+    }
+    .title-section {
+        font-size: 46px;
+    }
+}
+.radio-accept{
+    display: inline-block;
+}
+.slider-works-image-mobile-320{
+    display: none;
+}
+.advantage-image-worker-mobile-520{
+    display: none;
+}
+.image-notes-how-we-work-mobile-320{
+    display: none;
+}
+@media (max-width: 576px){
+    .header-search-mobile{
+        display: none;
+    }
+    .burger-mobile-header{
+        order: 2;
+        margin-left: auto;
+        height: 19px;
+        width: auto;
+    }
+    .header-logo-href{
+        margin: 0 0 0 0px;
+    }
+    .header-logo-mobile {
+        width: auto;
+        height: 31px;
+    }
+    .mobile-header{
+        padding: 0 15px;
+        height: 45px;
+    }
+    .slider-works-image-mobile-768{
+        display: none;
+    }
+    .slider-works-image-mobile-320{
+        display: block;
+        position: absolute;
+        top: -45px;
+        width: calc(100% - 30px);
+    }
+    .main-text{
+        font-size: 20px;
+        line-height: 24.38px;
+        text-align: center;
+    }
+    .main-text-block{
+        position: relative;
+        display: block;
+        padding-top: 32px;
+        margin: 0;
+        text-align: center;
+    }
+    .description-main-text{
+        font-size: 12px;
+        line-height: 14.63px;
+        font-weight: 500;
+        margin: 9px auto;
+        text-align: center;
+        max-width: 80%;
+    }
+    .head-button{
+        font-size: 12px;
+        line-height: 14.64px;
+        font-weight: 600;
+        margin-top: 28px;
+        margin-bottom: 40px;
+        padding: 13px 29px;
+    }
+    .slider-works {
+        padding: 0 15px;
+        height: auto;
+        overflow: hidden;
+    }
+    .about-company{
+        padding: 0 15px;
+    }
+    section{
+        margin-bottom: 39px;
+    }
+    .title-section{
+        font-size: 24px;
+        line-height: 29.26px;
+    }
+    .text-about-company{
+        margin: 0;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .title-about-company{
+        margin-bottom: 3px;
+    }
+    .advantage-image-worker-mobile-768{
+        display: none;
+    }
+    .advantage-image-worker-mobile-520{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .info-advantages-block {
+        position: relative;
+        display: block;
+        margin-top: 9px;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        background: transparent;
+    }
+    .text-info-advantages{
+        margin: 0;
+        color: #333333;
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+    .button-info-about{
+        padding: 11px 42px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 9px;
+        color: #FF9900;
+        font-size: 12px;
+    }
+    .info-consulting-image {
+        padding: 0;
+        width: 64px;
+        height: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .info-item{
+        display: flex;
+        flex-direction: column;
+        outline: none;
+        height: auto;
+    }
+    .info-worker-image {
+        padding: 0;
+        margin-right: auto;
+        width: 62.5px;
+    }
+    .title-info {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21.94px;
+    }
+    .info-image{
+        margin-bottom: 13px;
+    }
+    .text-info-consulting {
+        margin-right: 0;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .text-info-worker {
+        margin-right: 0;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .info-item:first-child {
+         margin-bottom: 13px;
+     }
+    .how-we-work {
+        padding: 0 15px;
+    }
+    .point-item {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .point-item:not(:first-child) {
+        margin-left: 44px;
+    }
+    .title-how-we-work {
+         margin-bottom: 37px;
+    }
+    .image-notes-how-we-work-mobile-768{
+        display: none;
+    }
+    .image-notes-how-we-work-mobile-320{
+        display: block;
+        width: 100%;
+    }
+    .how-we-work-points {
+        margin-bottom: 15px;
+    }
+    .block-how-we-work {
+        margin-top: 0px;
+    }
+    .right-how-we-work {
+        margin-bottom: 10px;
+    }
+    .text-how-we-work{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .button-more-how-we-work{
+        font-size: 12px;
+        line-height: 14.63px;
+        margin-right: 10px;
+        padding: 0px 44px;
+    }
+    .button-contract-how-we-work {
+        padding: 12px 32px !important;
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+    .buttons-block-how-we-work {
+        margin-top: 21px;
+        margin-left: 0px;
+    }
+    .questions{
+        padding: 0 15px;
+    }
+    .question-text{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+        max-width: 80%;
+    }
+    .title-questions {
+        margin-bottom: 14px;
+    }
+    .question-item:first-child > .question-href {
+        padding-top: 0px;
+    }
+    .question-href {
+        height: auto;
+    }
+    .image-button-question {
+        position: absolute;
+        right: 5px;
+        width: 18.6px;
+        height: 18.6px;
+    }
+    .button-question-more {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    .question-item:first-child > .question-href {
+        padding: 22px 0;
+    }
+    .question-item:nth-child(2) > .question-href{
+        padding: 21px 0px;
+    }
+    .question-item:nth-child(3) > .question-href{
+        padding: 22px 0px;
+    }
+    .question-item:nth-child(4) > .question-href{
+        padding: 21px 0px;
+    }
+    .question-item:nth-child(5) > .question-href{
+        padding: 22px 0px;
+    }
+    footer{
+        padding: 0 15px;
+    }
+    .center-footer {
+        margin-left: 0;
+        margin-top: 39px;
+        margin-right: 0;
+        padding-bottom: 23px;
+        border-bottom: 1px solid #595959;
+    }
+    .default-input{
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: 400;
+        padding: 14px 16.5px;
+    }
+    .title-application {
+        margin-bottom: 22px;
+    }
+    .button-form-center-footer{
+        font-size: 12px;
+        line-height: 14.63px;
+        padding: 13px 28px;
+        margin: 0 auto;
+        display: block;
+    }
+    .textarea-comment {
+        margin-bottom: 26px !important;
+    }
+    .checkbox-form-center-footer {
+        margin-left: 0px;
+    }
+    .checkbox-block{
+        text-align: center;
+    }
+    .label-checkbox-center {
+        font-size: 16px;
+    }
+    .radio-accept{
+        margin-top: 12px;
+    }
+    .left-footer {
+        margin-top: 0;
+        text-align: center;
+    }
+    .logo-footer {
+        margin-bottom: 12px;
+        width: 131px;
+        margin-top: 23px;
+    }
+    .image-social-block {
+        width: 34.4px;
+        height: 34.4px;
+    }
+    .social-link-footer:not(:last-child) {
+        margin-right: 10px;
+    }
+    .social-block-left-footer {
+        margin-bottom: 25px;
+    }
+    .left-advantages{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+    <title>Евклид</title>
+</head>
+<body>
+
+    <header class="container mobile-header">
+        <img class="burger-mobile-header" src="images/burger.svg" alt="burger">
+        <a class="header-logo-href" href=""><img class="header-logo-mobile" src="images/logo.png" alt="logo"></a>
+        <img class="header-search-mobile" src="images/Search.svg" alt="search">
+    </header>
+    <div aria-checked="true" class="mobile-menu-float">
+        <ul class="header-menu">
+            <li class="header-menu-item">О нас</li>
+            <li class="header-menu-item">Проекты</li>
+            <li class="header-menu-item">Этапы</li>
+            <li class="header-menu-item">Отзывы</li>
+            <li class="header-menu-item">Контакты</li>
+        </ul>
+    </div>
+    <header class="container desktop-header" tabindex="0">
+        <a aria-label="Логотип" class="header-logo-href" href=""  tabindex="1"><img class="header-logo" src="images/logo.png" alt="logo"></a>
+        <div aria-checked="true" class="header-menu-block">
+            <ul aria-label="Меню" class="header-menu">
+                <li aria-label="О нас" class="header-menu-item"><a aria-label="О нас" href=""  tabindex="2">О нас</a></li>
+                <li aria-label="Проекты" class="header-menu-item"><a aria-label="Проекты" href="" tabindex="2">Проекты</a></li>
+                <li aria-label="Этапы" class="header-menu-item"><a aria-label="Этапы" href="" tabindex="2">Этапы</a></li>
+                <li aria-label="Отзывы" class="header-menu-item"><a aria-label="Отзывы" href="" tabindex="2">Отзывы</a></li>
+                <li aria-label="Контакты" class="header-menu-item"><a aria-label="Контакты" href="" tabindex="2">Контакты</a></li>
+            </ul>
+            <a href="" aria-label="Кнопка поиск" tabindex="3"> <img class="header-search" src="images/Search.svg" alt="search"></a>
+        </div>
+    </header>
+    <main>
+        <section class="slider-works">
+            <div class="container">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img class="slider-works-image" src="images/build.jpg" alt="building">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider-works-image" src="images/second-build.png" alt="building">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider-works-image" src="images/third-build.png" alt="building">
+                        </div>
+                    </div>
+
+                    <div class="swiper-button swiper-button-prev" aria-label="Листать назад" tabindex="-1"></div>
+                    <div class="swiper-button swiper-button-next" aria-label="Листать вперед" tabindex="-1"></div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination" tabindex="-1"></div>
+                </div>
+                <div class="main-text-block" aria-label="Проектные решения любой сложности.">
+                    <h1 class="main-text">Проектные решения<br>любой сложности</h1>
+                    <p class="description-main-text">Есть над чем задуматься: базовые сценарии поведения<br>пользователей и по сей день остаются уделом проектантов</p>
+                    <input class="default-button head-button" type="button" value="Заказать расчёт" tabindex="3">
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="about-company" aria-label="Блок: О компании">
+        <div class="container">
+            <h2 class="title-section title-about-company" aria-label="О нас">О нас</h2>
+            <p class="text-about-company default-text">
+                Также как перспективное планирование создаёт необходимость включения в производственный план
+                целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности
+                и грандиозности. А также диаграммы связей могут быть описаны максимально подробно.
+                Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас
+                анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить,
+                что высококачественный прототип &nbsp;<i style="color: #FF9900;" class="fas fa-info-circle"></i>&nbsp;будущего проекта предопределяет высокую востребованность позиций,
+                занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный
+                прототип будущего проекта способствует повышению качества экспериментов.
+            </p>
+            <div class="advantages-about-block">
+                <div class="left-advantages">
+                    <img class="advantage-image-worker" src="images/worker.jpg" alt="">
+                    <img class="advantage-image-worker-mobile" src="images/worker-mobile.png" alt="">
+                    <img class="advantage-image-worker-mobile-768" src="images/worker-768.png" alt="">
+                    <img class="advantage-image-worker-mobile-520" src="images/worker-520.png" alt="">
+                    <div class="info-advantages-block">
+                        <p class="text-info-advantages default-text">
+                            Принимая во внимание показатели успешности,<br>перспективное планирование способствует подготовке<br>и реализации новых принципов.
+                        </p>
+                        <input class="button-info-about" type="button" value="Подробнее" tabindex="5">
+                    </div>
+                </div>
+                <div class="right-advantages">
+                    <div class="info-item">
+                        <img class="info-image info-consulting-image" src="images/consulting.svg" alt="">
+                        <p class="default-text text-info-consulting">
+                            <b class="title-info">Консультация с широким активом</b>
+                            <br>
+                            А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <img class="info-image info-worker-image" src="images/works.svg" alt="">
+                        <p class="default-text text-info-worker">
+                            <b class="title-info">В своём стремлении повысить</b>
+                            <br>
+                            Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-we-work" aria-label="Блок: Как мы работаем">
+        <div class="container">
+            <h2 class="title-section title-how-we-work">Как мы работаем</h2>
+            <ul class="how-we-work-points">
+                <li class="point-item">1 шаг</li>
+                <li class="point-item">2 шаг</li>
+                <li class="point-item">3 шаг</li>
+                <li class="point-item">4 шаг</li>
+            </ul>
+            <div class="block-how-we-work">
+                <div class="left-how-we-work">
+                    <p class="text-how-we-work default-text">
+                        <b class="title-info">Проводим консультацию</b>
+                        <br>
+                        Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями.
+                        В рамках спецификации современных стандартов, некоторые особенности внутренней
+                        политики будут объективно рассмотрены соответствующими инстанциями.
+                        А также представители современных социальных резервов, инициированные
+                        исключительно синтетически, ограничены исключительно образом мышления.
+                        Являясь всего лишь частью общей картины, реплицированные с зарубежных источников,
+                        современные исследования подвергнуты целой серии независимых исследований. Кстати,
+                        &nbsp;стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно
+                        интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+                    </p>
+                    <div class="buttons-block-how-we-work">
+                        <input class="default-button button-more-how-we-work" type="button" value="Подробнее" tabindex="5">
+                        <input class="button-contract-how-we-work" type="button" value="Договор" tabindex="5">
+                    </div>
+                </div>
+                <div class="right-how-we-work">
+                    <img class="image-notes-how-we-work" src="images/notes.jpg" alt="">
+                    <img class="image-notes-how-we-work-mobile" src="images/notes-mobile.png" alt="">
+                    <img class="image-notes-how-we-work-mobile-768" src="images/notes-768.png" alt="">
+                    <img class="image-notes-how-we-work-mobile-320" src="images/notes-320.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="questions" aria-label="Блок: Часто задаваемые вопросы" >
+        <div class="container">
+            <h2 class="title-section title-questions">Часто задаваемые вопросы</h2>
+            <div id="accordion" class="question-blocks">
+                <h3 class="question-text" tabindex="6">
+                   Из чего формируется конечная стоимость проекта?
+                </h3>
+                <div class="question-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur earum labore necessitatibus neque quam quis sit tempora voluptatibus? Ab consequuntur distinctio, doloribus ea ipsam ipsum minima nisi ullam veritatis voluptates!</p>
+                </div>
+                <h3 class="question-text" tabindex="7">
+                    У меня есть свой проект. Сможем ли мы его доработать / реализовать?
+                </h3>
+                <div class="question-item">
+                    <p>
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis, eligendi enim ex explicabo facere fuga minima molestiae nihil omnis porro quaerat quas quibusdam quis repudiandae sapiente similique, sunt voluptatem?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aperiam corporis dicta dignissimos dolorem eos eum illo iusto laboriosam, libero maiores modi odio perferendis provident quas ratione ut vitae?
+                    </p>
+                </div>
+                <h3 class="question-text" tabindex="8">
+                    Я выбираю между разными компаниями. В чём ваше отличие?
+                </h3>
+                <div class="question-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis, eligendi enim ex explicabo facere fuga minima molestiae nihil omnis porro quaerat quas quibusdam quis repudiandae sapiente similique, sunt voluptatem?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aperiam corporis dicta dignissimos dolorem eos eum illo iusto laboriosam, libero maiores modi odio perferendis provident quas ratione ut vitae?
+                    </p>
+                </div>
+                <h3 class="question-text" tabindex="9">
+                    Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
+                </h3>
+                <div class="question-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis, eligendi enim ex explicabo facere fuga minima molestiae nihil omnis porro quaerat quas quibusdam quis repudiandae sapiente similique, sunt voluptatem?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aperiam corporis dicta dignissimos dolorem eos eum illo iusto laboriosam, libero maiores modi odio perferendis provident quas ratione ut vitae?
+                    </p>
+                </div>
+                <h3 class="question-text" tabindex="10">
+                    Могу ли я вернуть деньги на каком-либо из этапов работ?
+                </h3>
+                <div class="question-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis, eligendi enim ex explicabo facere fuga minima molestiae nihil omnis porro quaerat quas quibusdam quis repudiandae sapiente similique, sunt voluptatem?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aperiam corporis dicta dignissimos dolorem eos eum illo iusto laboriosam, libero maiores modi odio perferendis provident quas ratione ut vitae?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-block">
+            <div class="left-footer">
+                <a href="/" aria-label="Логотип Евклид" tabindex="11"><img class="logo-footer" src="images/logo2.png" alt=""></a>
+                <ul class="left-footer-categories">
+                    <li class="left-footer-item"><a href="" aria-label="О нас" tabindex="12">О нас</a></li>
+                    <li class="left-footer-item"><a href="" aria-label="Проекты" tabindex="12">Проекты</a></li>
+                    <li class="left-footer-item"><a href="" aria-label="Отзывы" tabindex="12">Отзывы</a></li>
+                    <li class="left-footer-item"><a href="" aria-label="Договор оферты" tabindex="12">Договор оферты</a></li>
+                    <li class="left-footer-item"><a href="" aria-label="Договор подряда" tabindex="12">Договор подряда</a></li>
+                    <li class="left-footer-item"><a href="" aria-label="Конфиденциальность" tabindex="12">Конфиденциальность</a></li>
+                    <li class="left-footer-item"><a href="" aria-label="Партнёрское соглашение" tabindex="12">Партнёрское соглашение</a></li>
+                </ul>
+                <div class="social-block-left-footer" aria-label="Блок ссылок: социальные сети">
+                    <a class="social-link-footer" href="" aria-label="Фэйсбук" tabindex="13">
+                        <img class="image-social-block" src="images/facebook.svg" alt="">
+                    </a>
+                    <a class="social-link-footer" href="" aria-label="Вконтакте" tabindex="13">
+                        <img class="image-social-block" src="images/vk.svg" alt="">
+                    </a>
+                    <a class="social-link-footer" href="" aria-label="Инстаграм" tabindex="13">
+                        <img class="image-social-block" src="images/instagram.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="center-footer" aria-label="Блок: оставить заявку">
+                <h2 class="title-section title-application">Оставить заявку</h2>
+                <form class="form-center-footer" action="" aria-label="Форма для заполнения">
+                    <input class="default-input input-name" name="name" type="text" placeholder="Фамилия, имя и отчество*" tabindex="14">
+                    <input class="default-input input-email" name="email" type="text" placeholder="E-mail*" tabindex="14">
+                    <textarea class="default-input textarea-comment" name="comment" placeholder="Сообщение" tabindex="14"></textarea>
+                    <div class="checkbox-block">
+                        <input class="default-button button-form-center-footer" type="submit" value="Отправить данные" tabindex="14">
+                        <div class="radio-accept">
+                            <input class="checkbox-form-center-footer" id="checkbox" name="checkbox" type="checkbox" checked tabindex="14">
+                            <label class="label-checkbox-center" for="checkbox">Согласен на обработку данных</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="right-footer">
+                <p class="text-right-footer">
+                    Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let mySwiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 5000,
+            },
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                type:'bullets',
+                clickable: 'true',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        })
+    </script>
+    <script>
+        $( function() {
+            $( "#accordion" ).accordion();
+        } );
+    </script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
